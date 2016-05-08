@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">OrderFoodApp</string>
+    <string name="edit_price">菜品单价</string>
+    <string name="edit_name">菜品名称</string>
+    <string name="edit_description">菜品介绍</string>
+    <string name="edit_tap_to_change_image">点击更换图片</string>
+    <string name="add">添加</string>
+    <string name="addToCart">加入购物车</string>
+    <string name="food_description">宫保鸡丁，是一道闻名中外的汉族传统名菜。鲁菜、川菜、贵州菜中都有收录，原料、做法有差别。  该菜式的起源与鲁菜中的酱爆鸡丁，和贵州菜的胡辣子鸡丁有关，后被清朝山东巡抚、四川总督丁宝桢改良发扬，形成了一道新菜式——宫保鸡丁，并流传至今，此道菜也被归纳为北京宫廷菜  。之后宫保鸡丁也流传到国外。
+宫保鸡丁选用鸡肉为主料，佐以花生米、黄瓜、辣椒等辅料烹制而成。 红而不辣、辣而不猛、香辣味浓、肉质滑脆。由于其入口鲜辣，鸡肉的鲜嫩配合花生的香脆。</string>
+    <string name="edit">编辑</string>
+    <string name="phone_number">输入您的手机号,手机号即账号</string>
+    <string name="authentication">输入验证码</string>
+    <string name="password_hint">输入密码，不少于六位数</string>
+    <string name="input_again">再次输入密码</string>
+    <string name="commit_register">提交</string>
+    <string name="send">发送</string>
+    <string name="skip_to_login">已有账号？点击直接登录</string>
+    <string name="type_account">账号</string>
+    <string name="type_password">密码</string>
+    <string name="login">登录</string>
+    <string name="account">账号/手机号:</string>
+    <string name="address">送餐地址</string>
+    <string name="change">修改</string>
+    <string name="my_order">我的订单</string>
+    <string name="commit_order">提交订单</string>
+    <string name="not_login">请先登录！</string>
+    <string name="hello">你好，管理员</string>
+    <string name="about">关于本店</string>
+    <string name="introduction">XX餐馆位于XX街XX路XX号\n本店主营各种炒菜，火锅，均为湘式风味\n自2012年开业以来，
+    菜品饱受广大消费者喜爱....我编不下去了</string>
+    <string name="about_pic">本店实图</string>
+</resources>

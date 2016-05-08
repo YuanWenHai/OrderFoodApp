@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/fragment_my_order_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        android:background="@color/colorPrimary"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_my_order_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/order_detail_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="客户联系电话：13283611365"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/order_detail_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="地址：山西省太原市晋源区"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+</LinearLayout>
